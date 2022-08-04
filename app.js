@@ -9,7 +9,7 @@ const postControllers = require('./controllers/postControllers');
 const pageControllers = require('./controllers/pageControllers');
 
 //Mognoose
-mongoose.connect("mongodb://127.0.0.1:27017/clean-db", {
+mongoose.connect("mongodb+srv://Cleanblogs:B.elmas123@cluster0.vn89a.mongodb.net/cleanblogss?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
